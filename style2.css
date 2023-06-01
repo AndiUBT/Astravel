@@ -1,0 +1,132 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Space Grotesk', sans-serif;
+    background-color: black;
+    
+}
+
+
+
+  input[type="email"], input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus, input[type=email]:focus {
+  outline: none;
+}
+
+h1 {
+  color: white;
+}
+p{
+    color: white;
+}
+
+
+button {
+  background-color: #20273b;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 4px;
+}
+
+
+button:hover {
+  background-color: #a8606c;
+}
+
+
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+.container {
+  padding: 120px 400px;
+  background-color: black;
+  outline: none;
+  border: none;
+
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}
+
+#navbar {
+    list-style-type: none;
+    padding-right: 40px;
+    background: linear-gradient(180deg, transparent 2%, black),
+    url("images/moonhighres.jpg");
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+}
+li{
+    padding-right: 40px;
+    color: white;  
+    size: 20px;
+}
+
+#logoli {
+    display: block;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    padding: 14px 40px;
+    margin-right: auto;
+}
+
+#logo {
+    height: 80px;
+}
+label {
+    color: white;
+}
+
+a:link {
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #E94560;
+    background-color: transparent;
+    text-decoration:wavy;
+  }
+  
+  a:active {
+    color: #E94560;
+    background-color: transparent;
+    text-decoration: wavy;
+  }

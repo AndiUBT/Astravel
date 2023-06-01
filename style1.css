@@ -1,0 +1,102 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Space Grotesk', sans-serif;
+    background-color: #000000;
+    
+}
+
+
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px;  
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing:content-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+    background:  white;
+  }
+
+  option{
+    background-color: white;
+  }
+  
+  input[type=submit] {
+    background-color: #20273b;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  
+  input[type=submit]:hover {
+    background-color: #a8606c;
+  }
+  
+  
+  .container {
+    
+    background-color: #000000;
+    padding: 120px 400px;
+    
+   
+  }
+  #navbar {
+    list-style-type: none;
+    padding-right: 40px;
+    background: linear-gradient(180deg, transparent 2%, black),
+    url("images/moonhighres.jpg");
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+}
+li{
+    padding-right: 40px;
+    color: white;  
+    size: 20px;
+}
+
+#logoli {
+    display: block;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    padding: 14px 40px;
+    margin-right: auto;
+}
+
+#logo {
+    height: 80px;
+}
+label {
+    color: aliceblue;
+}
+
+a:link {
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #E94560;
+    background-color: transparent;
+    text-decoration:wavy;
+  }
+  
+  a:active {
+    color: #E94560;
+    background-color: transparent;
+    text-decoration: wavy;
+  }
+
